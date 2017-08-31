@@ -1,0 +1,36 @@
+.Person {
+    border: 2px solid #000000;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.Person-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Person-age {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.Person-category {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.priority-1 {
+    background-color: #edcca8;
+}
+
+.priority-2 {
+    background-color: #a8edb0;
+}
+
+.priority-3 {
+    background-color: #a8c4ed;
+}
+
+.priority-4 {
+    background-color: #d2a8ed;
+}

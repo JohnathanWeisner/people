@@ -1,0 +1,14 @@
+.HomePage {
+  text-align: center;
+}
+
+.HomePage-header {
+  background-color: #222;
+  height: 100px;
+  padding: 12px;
+  color: white;
+}
+
+.HomePage-intro {
+  font-size: large;
+}
