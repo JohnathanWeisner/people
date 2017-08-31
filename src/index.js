@@ -9,7 +9,9 @@ import peopleApp from './reducers/peopleApp'
 
 let store = createStore(peopleApp);
 
-ReactDOM.render(<Provider store={store}>
+ReactDOM.render(
+  <Provider store={store}>
     <App/>
-</Provider>, document.getElementById('root'));
+  </Provider>, document.getElementById('root')
+);
 registerServiceWorker();
