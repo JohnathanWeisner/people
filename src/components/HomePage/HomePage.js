@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PeopleGrid from '../PeopleGrid/PeopleGrid';
-import Person from '../Person/Person';
 import SortMenu from '../SortMenu/SortMenu';
+import Categories from '../Categories/Categories';
 import './HomePage.css';
 
 class HomePage extends Component {
@@ -11,8 +11,8 @@ class HomePage extends Component {
         <div className="HomePage-header">
           <h2>PEOPLE</h2>
         </div>
-        <SortMenu></SortMenu>
-        <PeopleGrid></PeopleGrid>
+        <SortMenu/><Categories/>
+        <PeopleGrid/>
       </div>
     );
   }

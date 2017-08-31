@@ -1,0 +1,8 @@
+.Categories {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.Categories:last-child() {
+    padding-right: 0px;
+}
