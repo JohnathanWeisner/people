@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PeopleGrid from '../PeopleGrid/PeopleGrid';
-import Person from '../Person/Person';
 import './HomePage.css';
 
 class HomePage extends Component {
