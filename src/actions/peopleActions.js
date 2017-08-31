@@ -11,3 +11,10 @@ export const loadPeople = (people) => {
     people: people
   };
 }
+
+export const setPeopleFilter = (filterType) => {
+  return {
+    type: 'SET_PEOPLE_FILTER',
+    filterType: filterType
+  }
+}
